@@ -11,7 +11,14 @@
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
     <!-- Import other AMP Extensions here -->
     <style amp-custom>
-        /* Add your styles here */
+        .link-to-bakonyi {
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 2rem;
+            font-weight: 600;
+            letter-spacing: 2px;
+        }
     </style>
     <style amp-boilerplate>
         body {
@@ -102,6 +109,7 @@
             </amp-story-grid-layer>
             <amp-story-grid-layer template="thirds">
                 <a
+                    class="link-to-bakonyi"
                     grid-area="lower-third"
                     href="https://bakonyi.vercel.app"
                     target="_blank"
